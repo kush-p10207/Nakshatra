@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Nakshatra</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="text-white font-sans">
+    <div class="bg-[url(/img/stars-bg.jpg)] bg-center bg-cover">
+      <header class="sticky top-5 z-10">
+        <nav
+          class="h-17 max-w-7xl mx-auto px-4 py-3 flex justify-between items-center rounded-3xl bg-[rgba(0,0,0,0.4)] backdrop-blur-md"
+        >
+          <h1 class="text-2xl font-bold flex text-center items-center">
+            <img
+              src="/img/logo-removebg-preview.png"
+              alt="logo"
+              class="h-10 w-10 mx-1.5"
+            />Nakshatra
+          </h1>
+          <ul class="flex space-x-6">
+            <li><a href="/index.html" class="hover:text-indigo-300">Home</a></li>
+            <li>
+              <a href="about.html" class="hover:text-indigo-300">About</a>
+            </li>
+            <li>
+              <a href="events.html" class="hover:text-indigo-300">Events</a>
+            </li>
+            <li>
+              <a href="gallery.html" class="hover:text-indigo-300">Gallery</a>
+            </li>
+            <li>
+              <a href="contact.html" class="text-indigo-400 underline"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section
+        class="relative bg-cover bg-center min-h-screen flex items-center justify-center"
+      >
+        <div
+          class="relative max-w-3xl w-full bg-gray-800 bg-opacity-80 p-10 rounded-2xl shadow-lg mb-8 mt-12"
+        >
+          <h2 class="text-3xl font-bold text-center mb-6">Contact Us</h2>
+          <p class="text-center text-gray-300 mb-8">
+            Have questions or want to join our society? Fill out the form below.
+          </p>
+          <form action="#" method="POST" class="space-y-6">
+            <div>
+              <label for="name" class="block text-gray-300 mb-2"
+                >Your Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="w-full px-4 py-3 rounded-lg bg-gray-900 border border-gray-600 focus:border-indigo-400 focus:ring-2 focus:ring-indigo-400 outline-none"
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-gray-300 mb-2"
+                >Your Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="w-full px-4 py-3 rounded-lg bg-gray-900 border border-gray-600 focus:border-indigo-400 focus:ring-2 focus:ring-indigo-400 outline-none"
+              />
+            </div>
+            <div>
+              <label for="message" class="block text-gray-300 mb-2"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                class="w-full px-4 py-3 rounded-lg bg-gray-900 border border-gray-600 focus:border-indigo-400 focus:ring-2 focus:ring-indigo-400 outline-none"
+              ></textarea>
+            </div>
+            <div class="text-center">
+              <button
+                type="submit"
+                class="bg-indigo-500 hover:bg-indigo-600 px-8 py-3 rounded-full font-semibold shadow-lg transition"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+          <div class="mt-10 text-center text-gray-400">
+            <p>
+              Email:
+              <a
+                href="/html/contact.html"
+                class="text-indigo-400 hover:underline"
+                >nakshatra@nsut.ac.in</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer
+      class="bg-black/70 pt-4 pl-4 text-center bottom-0 h-14 text-gray-400 flex justify-between"
+    >
+      <p>
+        <a
+          href="/html/contact.html"
+          class="text-indigo-200 hover:text-indigo-300 hover:underline"
+          >Join Us</a
+        >
+      </p>
+      <p class="pl-32.5">© 2025 Nakshatra Society | All Rights Reserved</p>
+      <ul class="flex justify-between pr-2">
+        <li>
+          <a
+            href="https://www.instagram.com/nakshatra_nsut/"
+            class="m-1.5 text-indigo-200 hover:text-indigo-300 hover:underline"
+            >Instagram</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://medium.com/@nakshatransit"
+            class="m-1.5 text-indigo-200 hover:text-indigo-300 hover:underline"
+            >Blogs</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/company/nakshatra-nsut/"
+            class="m-1.5 text-indigo-200 hover:text-indigo-300 hover:underline"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/Nakshatra.DU/"
+            class="text-indigo-200 hover:text-indigo-300 hover:underline"
+            >Facebook</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
